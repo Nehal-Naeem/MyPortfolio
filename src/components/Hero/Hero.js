@@ -16,6 +16,7 @@ const Hero = () => (
       Passionate about using technology to create efficency and value for individauls and businesses.
       Looking for new graduate opportunities for this fall.
       </SectionText>
+      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
     </LeftSection>
   </Section>
 );
