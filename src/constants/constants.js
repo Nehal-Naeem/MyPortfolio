@@ -38,9 +38,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Started university at UBC as a Business Major', },
+  { year: 2019, text: 'Transferred to Combined Major in Business and Computer Science program', },
+  { year: 2020, text: 'Started learning web development tools in my own time after finishing a coursework project (CPSC310)', },
+  { year: 2021, 
+    text: 
+    'Started Volunteering at UBC Campus Lightbox as a software developer. To build skills while implementing technology to help people connect with mental health resources', },
 ];
