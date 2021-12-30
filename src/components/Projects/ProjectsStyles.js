@@ -47,12 +47,19 @@ export const HeaderThree = styled.h3`
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
+export const HeaderTwenty = styled.h3`
+  font-weight: 500;
+  color: #9cc9e3;
+  padding: .5rem 0;
+  font-size: ${(props) => props.title ? '2rem' : '1rem'};
+`;
+
 export const Hr = styled.hr`
   width: 50px;
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: lightgreen;
 `;
 
 export const Intro = styled.div`
@@ -87,16 +94,17 @@ export const UtilityList = styled.ul`
   justify-content: space-around;
   margin: 2.5rem 0;
 `;
-
+// #9cc9e3
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color: navy;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: skyblue;
+font-weight: bold;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: lightgreen;
 
 }
 `;
@@ -107,6 +115,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: lightgreen;
 font-size: 1.5rem;
 `
