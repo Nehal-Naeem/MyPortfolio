@@ -16,7 +16,7 @@ const Hero = () => (
       Passionate about using technology to create efficency and value for individauls and businesses.
       Looking for new graduate opportunities for this fall.
       </SectionText>
-      <Button onClick={() => window.location = '/Resume_NehalNaeem.pdf'}>Resume</Button>
+      <Button onClick={() => window.location = '/resume_v0.8.pdf'}>Resume</Button>
     </LeftSection>
   </Section>
 );

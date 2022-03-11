@@ -18,7 +18,6 @@ const Technologies = () =>  (
         <LinkContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
             React.js 
           </ListParagraph>
         </LinkContainer>
@@ -28,8 +27,18 @@ const Technologies = () =>  (
         <LinkContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases 
+            Node.js <br/>
+            JAVA (Spring Boot)<br/>
+          </ListParagraph>
+        </LinkContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <LinkContainer>
+          <ListTitle>Database</ListTitle>
+          <ListParagraph>
+            SQL <br/>
+            NoSQL<br/>
           </ListParagraph>
         </LinkContainer>
       </ListItem>
